@@ -1,0 +1,51 @@
+/* start global styles */
+img, div{
+    transition: 0.4s;
+}
+
+/* start landing text button */
+.explore-btn::after{
+    content: "";
+    @apply block bg-blue h-screen w-full absolute top-1/2;
+    transform-origin: top center;
+}
+
+.explore-btn:hover::after{
+    animation: spin 3.5s linear forwards infinite;
+}
+
+@keyframes spin{
+    from {
+        transform: rotate(0);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+
+/* start landing photo zoom option */
+.zoom-option::after{
+    content: "Descover";
+    @apply opacity-0 absolute right-0 top-1/2 bg-[#77777759] rounded p-1 text-sm;
+    transition: 0.4s;
+}
+
+.zoom-option:hover::after{
+    @apply opacity-100 -right-[104%] -translate-x-1/2 -translate-y-1/2;
+}
+
+
+/* start zoomSection back button */
+.go-back:hover .back{
+    border: 1px solid white;
+}
+
+.back::after{
+    content: "Back";
+    @apply opacity-0 absolute left-0 top-1/2;
+    transition: 0.4s;
+}
+.go-back:hover .back::after{
+    @apply opacity-100 left-[173%] -translate-x-1/2 -translate-y-1/2;
+}

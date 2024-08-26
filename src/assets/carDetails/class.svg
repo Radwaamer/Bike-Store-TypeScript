@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#707070}
+        </style>
+    </defs>
+    <g id="Layer_2" transform="translate(-0.06 -0.061)">
+        <g id="invisible_box" transform="translate(-0.055 -0.055)">
+            <path id="Rectangle_19827" d="M0 0H24V24H0z" class="cls-1" transform="translate(0.115 0.115)"/>
+            <path id="Rectangle_19828" d="M0 0H24V24H0z" class="cls-1" transform="translate(0.115 0.115)"/>
+            <path id="Rectangle_19829" d="M0 0H24V24H0z" class="cls-1" transform="translate(0.115 0.115)"/>
+        </g>
+        <g id="Q3_icons" transform="translate(1.002 1.002)">
+            <g id="Group_71852">
+                <path id="Path_8398" d="M24.054 5.72L19.027 2 14 5.72v4.574l5.027 3.77 5.027-3.77z" class="cls-2" transform="translate(-7.968 -2)"/>
+                <path id="Path_8399" d="M2 25.72v4.574l5.027 3.77 5.027-3.77V25.72L7.027 22z" class="cls-2" transform="translate(-2 -11.946)"/>
+                <path id="Path_8400" d="M31.027 22L26 25.72v4.574l5.027 3.77 5.027-3.77V25.72z" class="cls-2" transform="translate(-13.936 -11.946)"/>
+            </g>
+        </g>
+    </g>
+</svg>

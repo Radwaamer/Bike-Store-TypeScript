@@ -1,0 +1,16 @@
+.slider::-webkit-scrollbar{
+    display: none;
+}
+.slider{
+    grid-auto-columns: calc((100% / 3) - 0.4rem);
+}
+.box{
+    position: relative;
+    left: 0;
+    transition: 0.4s;
+}
+.not-active-box{
+    position: absolute;
+    left: -100%;
+    opacity: 0;
+}

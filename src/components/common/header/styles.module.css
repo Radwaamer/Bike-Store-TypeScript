@@ -1,0 +1,21 @@
+.flip:hover li{
+    animation: flip 1.5s both;
+}
+@keyframes flip {
+    0%,50%{
+        transform: rotateX(90deg);
+        color: white;
+    }
+    40%,70%{
+        transform: rotateX(180deg);
+        color: white;
+    }
+    70%,90%{
+        transform: rotateX(270deg);
+        @apply text-blue
+    }
+    90%,100%{
+        transform: rotateX(360deg);
+        @apply text-blue
+    }
+}

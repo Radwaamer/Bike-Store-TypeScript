@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    body{
+        @apply bg-[#010302] text-[white]
+    }
+    p{
+        @apply leading-7
+    }
+}
+
+
+@layer components{
+    .container{
+        @apply mx-auto py-10
+    }
+}
